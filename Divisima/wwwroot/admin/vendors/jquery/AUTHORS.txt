@@ -1,0 +1,278 @@
+Authors ordered by first contribution.
+
+John Resig <jeresiggmail.com>
+Gilles van den Hoven <gilles0181gmail.com>
+Michael Geary <mikegeary.com>
+Stefan Petre <stefan.petregmail.com>
+Yehuda Katz <wycatsgmail.com>
+Corey Jewett <cjsyntheticplayground.com>
+Klaus Hartl <klaus.hartlgmail.com>
+Franck Marcia <franck.marciagmail.com>
+Jörn Zaefferer <joern.zaefferergmail.com>
+Paul Bakaus <paul.bakausgmail.com>
+Brandon Aaron <brandon.aarongmail.com>
+Mike Alsup <malsupgmail.com>
+Dave Methvin <dave.methvingmail.com>
+Ed Engelhardt <edengelhardtgmail.com>
+Sean Catchpole <littlecooldudegmail.com>
+Paul Mclanahan <pmclanahangmail.com>
+David Serduke <davidserdukegmail.com>
+Richard D. Worth <rdworthgmail.com>
+Scott González <scott.gonzalezgmail.com>
+Ariel Flesler <afleslergmail.com>
+Jon Evans <jonspringyweb.com>
+TJ Holowaychuk <tjvision-media.ca>
+Michael Bensoussan <mickeyseesmic.com>
+Robert Katić <robert.katicgmail.com>
+Louis-Rémi Babé <lrbabegmail.com>
+Earle Castledine <mrspeakergmail.com>
+Damian Janowski <damian.janowskigmail.com>
+Rich Dougherty <richrd.gen.nz>
+Kim Dalsgaard <kimkimdalsgaard.com>
+Andrea Giammarchi <andrea.giammarchigmail.com>
+Mark Gibson <jollytoadgmail.com>
+Karl Swedberg <kswedberggmail.com>
+Justin Meyer <justinbmeyergmail.com>
+Ben Alman <cowboyrj3.net>
+James Padolsey <clapadolsey.net>
+David Petersen <publicpetersendidit.com>
+Batiste Bieler <batiste.bielergmail.com>
+Alexander Farkas <infocorrupt-system.de>
+Rick Waldron <waldron.rickgmail.com>
+Filipe Fortes <filipefortes.com>
+Neeraj Singh <neerajdotnamegmail.com>
+Paul Irish <paul.irishgmail.com>
+Iraê Carvalho <iraeirae.pro.br>
+Matt Curry <mattpseudocoder.com>
+Michael Monteleone <michaelmichaelmonteleone.net>
+Noah Sloan <noah.sloangmail.com>
+Tom Viner <githubviner.tv>
+Douglas Neiner <dougdougneiner.com>
+Adam J. Sontag <ajpianoajpiano.com>
+Dave Reed <dareedmicrosoft.com>
+Ralph Whitbeck <ralph.whitbeckgmail.com>
+Carl Fürstenberg <azatothgmail.com>
+Jacob Wright <jacwrightgmail.com>
+J. Ryan Stinnett <jryansgmail.com>
+unknown <Igen005.upcorp.ad.uprr.com>
+temp01 <temp01ircgmail.com>
+Heungsub Lee <hsubl.ee>
+Colin Snover <github.comzetafleet.com>
+Ryan W Tenney <ryan10e.us>
+Pinhook <contactpinhooklabs.com>
+Ron Otten <r.j.g.ottengmail.com>
+Jephte Clain <Jephte.Clainuniv-reunion.fr>
+Anton Matzneller <obhvsbypqghgcgmail.com>
+Alex Sexton <AlexSextongmail.com>
+Dan Heberden <danheberdengmail.com>
+Henri Wiechers <hwiechersgmail.com>
+Russell Holbrook <russell.holbrookpatch.com>
+Julian Aubourg <aubourg.juliangmail.com>
+Gianni Alessandro Chiappetta <giannirunlevel6.org>
+Scott Jehl <scottjehlgmail.com>
+James Burke <jrburkegmail.com>
+Jonas Pfenniger <jonaspfenniger.name>
+Xavi Ramirez <xavi.rmzgmail.com>
+Jared Grippe <jareddeadlyicon.com>
+Sylvester Keil <sylvesterkeil.or.at>
+Brandon Sterne <bsternemozilla.com>
+Mathias Bynens <mathiasqiwi.be>
+Timmy Willison <timmywillisngmail.com>
+Corey Frang <gnarf37gmail.com>
+Digitalxero <digitalxero>
+Anton Kovalyov <antonkovalyov.net>
+David Murdoch <daviddavidmurdoch.com>
+Josh Varner <josh.varnergmail.com>
+Charles McNulty <cmcnultykznf.com>
+Jordan Boesch <jboesch26gmail.com>
+Jess Thrysoee <jessthrysoee.dk>
+Michael Murray <mmurz.net>
+Lee Carpenter <elcarpiegmail.com>
+Alexis Abril <mealexisabril.com>
+Rob Morgan <robbymgmail.com>
+John Firebaugh <john_firebaughbigfix.com>
+Sam Bisbee <samsbisbee.com>
+Gilmore Davidson <gilmoreorlessgmail.com>
+Brian Brennan <mebrianlovesthings.com>
+Xavier Montillet <xavierm02.netgmail.com>
+Daniel Pihlstrom <sciolist.segmail.com>
+Sahab Yazdani <sahab.yazdani+githubgmail.com>
+avaly <github-comagachi.name>
+Scott Hughes <hiscott-hughes.me>
+Mike Sherov <mike.sherovgmail.com>
+Greg Hazel <ghazelgmail.com>
+Schalk Neethling <schalkossreleasefeed.com>
+Denis Knauf <Denis.Knaufgmail.com>
+Timo Tijhof <krinklemailgmail.com>
+Steen Nielsen <swinedkgmail.com>
+Anton Ryzhov <antonryzhov.me>
+Shi Chuan <shichuanrgmail.com>
+Berker Peksag <berker.peksaggmail.com>
+Toby Brain <tobybfreshview.com>
+Matt Mueller <mattmuellegmail.com>
+Justin <drakefjustingmail.com>
+Daniel Herman <daniel.c.hermangmail.com>
+Oleg Gaidarenko <markeloggmail.com>
+Richard Gibson <richard.gibsongmail.com>
+Rafaël Blais Masson <rafbmassongmail.com>
+cmc3cn <59194618qq.com>
+Joe Presbrey <presbreygmail.com>
+Sindre Sorhus <sindresorhusgmail.com>
+Arne de Bree <arnebukkie.nl>
+Vladislav Zarakovsky <vlad.zargmail.com>
+Andrew E Monat <amonatgmail.com>
+Oskari <admino-programs.com>
+Joao Henrique de Andrade Bruni <joaohbruniyahoo.com.br>
+tsinha <tsinhaAnthonys-MacBook-Pro.local>
+Matt Farmer <mattfrmr.me>
+Trey Hunner <treyhunnergmail.com>
+Jason Moon <jmoonsocialcast.com>
+Jeffery To <jeffery.togmail.com>
+Kris Borchers <kris.borchersgmail.com>
+Vladimir Zhuravlev <private.facegmail.com>
+Jacob Thornton <jacobthorntongmail.com>
+Chad Killingsworth <chadkillingsworthmissouristate.edu>
+Nowres Rafid <nowres.rafedgmail.com>
+David Benjamin <davidbenmit.edu>
+Uri Gilad <antishokgmail.com>
+Chris Faulkner <thefaulknergmail.com>
+Elijah Manor <elijah.manorgmail.com>
+Daniel Chatfield <chatfielddanielgmail.com>
+Nikita Govorov <nikita.govorovgmail.com>
+Wesley Walser <waw325gmail.com>
+Mike Pennisi <mikemikepennisi.com>
+Markus Staab <markus.staabredaxo.de>
+Dave Riddle <davidjoyvuu.com>
+Callum Macrae <callumlynxphp.com>
+Benjamin Truyman <bentruymangmail.com>
+James Huston <jamesjameshuston.net>
+Erick Ruiz de Chávez <erickrdchgmail.com>
+David Bonner <dbonnercogolabs.com>
+Akintayo Akinwunmi <aakinwunmijudge.com>
+MORGAN <morganmorgangraphics.com>
+Ismail Khair <ismail.khairgmail.com>
+Carl Danley <carldanleygmail.com>
+Mike Petrovich <michael.c.petrovichgmail.com>
+Greg Lavallee <greglavalleewapolabs.com>
+Daniel Gálvez <dgalvezeditablething.com>
+Sai Lung Wong <sai.wonghuffingtonpost.com>
+Tom H Fuertes <TomFuertesgmail.com>
+Roland Eckl <eckl.rolandgooglemail.com>
+Jay Merrifield <fracmakgmail.com>
+Allen J Schmidt Jr <cobrasoftgmail.com>
+Jonathan Sampson <jjdsampsongmail.com>
+Marcel Greter <marcel.greterocbnet.ch>
+Matthias Jäggli <matthias.jaeggligmail.com>
+David Fox <dfoxinatorgmail.com>
+Yiming He <yiminghegmail.com>
+Devin Cooper <cooper.semanticsgmail.com>
+Paul Ramos <paul.b.ramosgmail.com>
+Rod Vagg <rodvagg.org>
+Bennett Sorbo <bsorbogmail.com>
+Sebastian Burkhard <sebi.burkhardgmail.com>
+Zachary Adam Kaplan <razicviralkitty.com>
+nanto_vi <nantomoon.email.ne.jp>
+nanto <nantomoon.email.ne.jp>
+Danil Somsikov <danilasomsikovgmail.com>
+Ryunosuke SATO <tricknotes.rsgmail.com>
+Jean Boussier <jean.boussiergmail.com>
+Adam Coulombe <meadam.co>
+Andrew Plummer <plummer.andrewgmail.com>
+Mark Raddatz <mraddatzgmail.com>
+Isaac Z. Schlueter <iizs.me>
+Karl Sieburg <ksieburgyahoo.com>
+Pascal Borreli <pascalborreli.com>
+Nguyen Phuc Lam <ruado1987gmail.com>
+Dmitry Gusev <dmitry.gusevgmail.com>
+Michał Gołębiowski <m.golebgmail.com>
+Li Xudong <istoneleegmail.com>
+Steven Benner <adminstevenbenner.com>
+Tom H Fuertes <tomfuertesgmail.com>
+Renato Oliveira dos Santos <ros3cin.ufpe.br>
+ros3cin <ros3cin.ufpe.br>
+Jason Bedard <jason+jqueryjbedard.ca>
+Kyle Robinson Young <kyledontkry.com>
+Chris Talkington <christalkingtontech.com>
+Eddie Monge <eddieeddiemonge.com>
+Terry Jones <terryjon.es>
+Jason Merino <jasonmerinogmail.com>
+Jeremy Dunck <jdunckgmail.com>
+Chris Price <price.cgmail.com>
+Guy Bedford <guybedfordgmail.com>
+Amey Sakhadeo <meameyms.com>
+Mike Sidorov <mikes.ekbgmail.com>
+Anthony Ryan <anthonyryan1gmail.com>
+Dominik D. Geyer <dominik.geyergmail.com>
+George Kats <katsgeorgeekgmail.com>
+Lihan Li <frankieteardropgmail.com>
+Ronny Springer <springer.ronnygmail.com>
+Chris Antaki <ChrisAntakigmail.com>
+Marian Sollmann <marian.sollmanncargomedia.ch>
+njhamann <njhamanngmail.com>
+Ilya Kantor <iliakangmail.com>
+David Hong <d.hongme.com>
+John Paul <johnjohnkpaul.com>
+Jakob Stoeck <jakobpokermania.de>
+Christopher Jones <chriscjqed.com>
+Forbes Lindesay <forbeslindesay.co.uk>
+S. Andrew Sheppard <andrewwq.io>
+Leonardo Balter <leonardo.baltergmail.com>
+Roman Reiß <mesilverwind.io>
+Benjy Cui <benjytrysgmail.com>
+Rodrigo Rosenfeld Rosas <rr.rosasgmail.com>
+John Hoven <hovenjgmail.com>
+Philip Jägenstedt <philipfoolip.org>
+Christian Kosmowski <ksmwskgmail.com>
+Liang Peng <poppinlpgmail.com>
+TJ VanToll <tj.vantollgmail.com>
+Senya Pugach <upisfreeoutlook.com>
+Aurelio De Rosa <aurelioderosagmail.com>
+Nazar Mokrynskyi <nazarmokrynskyi.com>
+Amit Merchant <bullredeyesgmail.com>
+Jason Bedard <jason+githubjbedard.ca>
+Arthur Verschaeve <contactarthurverschaeve.be>
+Dan Hart <danhartnotonthehighstreet.com>
+Bin Xin <rhyzixgmail.com>
+David Corbacho <davidcorbachogmail.com>
+Veaceslav Grimalschi <grimalschiyandex.ru>
+Daniel Husar <dano.husargmail.com>
+Frederic Hemberger <mailfrederic-hemberger.de>
+Ben Toews <mastahyetigmail.com>
+Aditya Raghavan <araghavan3gmail.com>
+Victor Homyakov <vkhomyackovgmail.com>
+Shivaji Varma <contactshivajivarma.com>
+Nicolas HENRY <icewilgmail.com>
+Anne-Gaelle Colom <colomawestminster.ac.uk>
+George Mauer <gmauergmail.com>
+Leonardo Braga <leonardo.bragagmail.com>
+Stephen Edgar <stephennetweb.com.au>
+Thomas Tortorini <thomastortorinigmail.com>
+Winston Howes <winstonhowesgmail.com>
+Jon Hester <jon.d.hestergmail.com>
+Alexander O'Mara <mealexomara.com>
+Bastian Buchholz <buchholz.bastiangooglemail.com>
+Arthur Stolyar <nekr.fabulagmail.com>
+Calvin Metcalf <calvin.metcalfgmail.com>
+Mu Haibao <mhbseal163.com>
+Richard McDaniel <rm0026uah.edu>
+Chris Rebert <githubrebertia.com>
+Gabriel Schulhof <gabriel.schulhofintel.com>
+Gilad Peleg <giladp007gmail.com>
+Martin Naumann <martingeekonaut.de>
+Marek Lewandowski <m.lewandowskicksource.com>
+Bruno Pérel <brunoperelgmail.com>
+Reed Loden <reedreedloden.com>
+Daniel Nill <daniellnillgmail.com>
+Yongwoo Jeon <yongwoo.jeonnavercorp.com>
+Sean Henderson <seanh.zagmail.com>
+Richard Kraaijenhagen <stdin+gitriichard.com>
+Connor Atherton <c.liam.athertongmail.com>
+Gary Ye <garysyegmail.com>
+Christian Grete <webmasterchristiangrete.com>
+Liza Ramo <liza.h.ramogmail.com>
+Julian Alexander Murillo <julian.alexander.murillogmail.com>
+Joelle Fleurantin <joasqueeniebeegmail.com>
+Jun Sun <klsforevergmail.com>
+Devin Wilson <dwilson6.githubgmail.com>
+Todor Prikumov <tono_prabv.bg>
+Zack Hall <zackhalloutlook.com>

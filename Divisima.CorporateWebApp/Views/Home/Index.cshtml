@@ -1,0 +1,19 @@
+﻿@using DAL.Entities
+@model IEnumerable<Brand>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<ul class='list-group'>
+    @foreach (Brand brand in Model)
+	{
+		<li class='list-group-item'>@brand.Name</li>
+	}
+</ul>
+<hr />
+<h1>YENİ MARKA EKLE</h1>
+<form action="/yenimarka" method="post">
+	<div>
+		<input name="name" id="name" type="text"/>
+	</div>
+	<div>
+		<input type="submit" value="GÖNDER" />
+	</div>
+</form>
