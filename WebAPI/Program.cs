@@ -24,7 +24,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateAudience = true, //KÝMLÝÐÝ KULLANACAK OLAN FÝRMA ADININ DOÐRULANMASI
         ValidateLifetime = true, //TOKEN GEÇERLÝLÝK SÜRESÝ DOÐRULAMASI
         ValidateIssuerSigningKey = true,
-        ValidIssuer = "http://localhost:5174/", //TOKEN SAÐLAYICI URL
+        ValidIssuer = "http://localhost:5174", //TOKEN SAÐLAYICI URL
         ValidAudience = "trendyol", //TOKEN KÝME VERÝLÝYOR
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("benimözelkeybilgisi"))
     };

@@ -3,7 +3,12 @@ using DAL.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace WebAPI.Controllers
 {
@@ -13,10 +18,12 @@ namespace WebAPI.Controllers
     public class HomeController : ControllerBase
     {
         private IRepository<Brand> _brandRepository;
+        private IRepository<Admin> _adminRepository;
 
-        public HomeController(IRepository<Brand> brandRepository)
+        public HomeController(IRepository<Brand> brandRepository, IRepository<Admin> adminRepository)
         {
             _brandRepository = brandRepository;
+            _adminRepository = adminRepository;
         }
 
         //[HttpGet]
@@ -102,7 +109,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPut]
-        public string DeleteBrand(Brand brand)
+        public string UpdateBrand(Brand brand)
         {
             try
             {
@@ -116,6 +123,57 @@ namespace WebAPI.Controllers
 
                 return "Bir hata meydana geldi. Detay:" + exception.Message;
             }
+        }
+
+
+
+        //----------- LOGİN İŞLEMLERİ ---------------
+
+
+        public static string getMD5(string _text)
+        {
+            using (MD5 md5 = MD5.Create())
+            {
+                byte[] hash = md5.ComputeHash(Encoding.UTF8.GetBytes(_text));
+                return BitConverter.ToString(hash).Replace("-", "");
+            }
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("/api/login")]
+        public string Login(string username, string password)
+        {
+            string md5Password = getMD5(password);
+
+            var admin = _adminRepository.GetBy(x => x.Username == username && x.Password == md5Password); //PASSWORD'Ü MD5 LENMİŞ PASSWORD İLE EŞLEŞTİRİYORUZ ÇÜNKÜ KAYIT OLURKEN VERİ TABANINA KAYDEDİLEN PASSWORD MD5LENMİŞ ŞEKİLDE KAYIT EDİLİYOR.
+
+            if (admin != null)
+            {
+                List<Claim> claims = new List<Claim>()
+                {
+                    new Claim(ClaimTypes.PrimarySid,admin.ID.ToString()),
+                    new Claim($"{username}",admin.Name),
+                    new Claim(ClaimTypes.Name,admin.Name+" "+admin.Surname)
+                };
+
+                string signInKey = "benimözelkeybilgisi";
+                SymmetricSecurityKey symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signInKey));
+                SigningCredentials signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
+
+                //ALT SATIRLARDA TOKEN OLUŞTURMA YAPILIYOR
+                JwtSecurityToken jwtSecurityToken = new JwtSecurityToken
+                    (
+                        issuer: "http://localhost:5174", //TOKEN SAĞLAYICI URL
+                        audience: "trendyol", //KİMLİĞİ KULLANACAK OLAN FİRMA VEYA UYGULAMA
+                        claims: claims,
+                        expires: DateTime.Now.AddDays(14), //TOKEN GEÇERLİLİK SÜRESİ
+                        notBefore: DateTime.Now, //TOKEN GEÇERLİLİĞİ NE ZAMAN BAŞLASIN
+                        signingCredentials: signingCredentials
+                    );
+                return new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
+            }
+            else return "Geçersiz kullanıcı adı veya şifre";
         }
     }
 }
