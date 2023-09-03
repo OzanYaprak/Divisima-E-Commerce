@@ -7,7 +7,8 @@ namespace DivisimaFrontend.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddRazorPages();
+            //builder.Services.AddRazorPages(); //ÝPTAL EDÝLDÝ
+            builder.Services.AddControllersWithViews(); // YERÝNE EKLENDÝ (CONTROLLER VE VIEW YAPINSINDA ÇALIÞABÝLMEK ÝÇÝN)
 
             var app = builder.Build();
 
@@ -22,7 +23,9 @@ namespace DivisimaFrontend.API
 
             app.UseAuthorization();
 
-            app.MapRazorPages();
+            //app.MapRazorPages(); //ÝPTAL EDÝLDÝ
+
+            app.MapControllerRoute(name: "default", pattern: "{controller=home}/{action=index}/{id?}"); //EKLENDÝ (CONTROLLER ROUTE YAPISINDA ÇALIÞABÝLMEK ÝÇÝN)
 
             app.Run();
         }

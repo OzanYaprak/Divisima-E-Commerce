@@ -1,5 +1,6 @@
 ﻿using BL.Repositories;
 using DAL.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,6 +9,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class HomeController : ControllerBase
     {
         private IRepository<Brand> _brandRepository;
@@ -31,7 +33,7 @@ namespace WebAPI.Controllers
 
             //VEYA AŞAĞISI GİBİ MARKALARI İSME GÖRE SIRALAR
 
-            return _brandRepository.GetAll(x => x.ID >= 10).OrderByDescending(X => X.Name);
+            //return _brandRepository.GetAll(x => x.ID >= 10).OrderByDescending(X => X.Name);
         }
 
 

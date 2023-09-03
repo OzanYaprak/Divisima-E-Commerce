@@ -1,0 +1,21 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using DAL.Entities;
+@model IEnumerable<Brand>
+
+
+<ul>
+    @foreach (var brand in Model)
+    {
+        <li>@brand.Name</li>
+    }
+</ul>
+<hr />
+<h1>YENİ MARKA EKLE</h1>
+<form asp-controller="Home" asp-action="AddNewBrand" method="post">
+    <div class="row">
+        <input name="name" id="name" type="text"/>
+    </div>
+    <div class="row">
+        <input value="Ekle" type="submit" />
+    </div>
+</form>
