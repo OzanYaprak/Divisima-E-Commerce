@@ -34,12 +34,26 @@ namespace WebAPI.Controllers
             return _brandRepository.GetAll(x => x.ID >= 10).OrderByDescending(X => X.Name);
         }
 
+
+
+
+
         [HttpGet("{id}")]
         public Brand GetBrandByID(int id)
         {
             return _brandRepository.GetBy(x => x.ID == id);
         }
 
+
+
+
+        //<summary> SWAGGER İÇERİSİNDE GÖZÜKEN METOTLARIN YANLARINDA YAZMIŞ OLDUĞUMUZ AÇIKLAMALARINI GÖSTERİYOR
+        //AŞAĞIDAKİ KISMI KULLANABİLMEK İÇİN WebAPI ÜZERİNE GELİP SAĞ TIKLIYORUZ => PROPERTIES => BUILD => OUTPUT => DOCUMENTATION FILE KISMINI CHECK YAPIYORUZ 
+        /// <summary>
+        /// Bu metodu kullanırken lütfen parametre girdisi 30 karakteri geçmesin
+        /// </summary>
+        /// <param name="brand"></param>
+        /// <returns></returns>
         [HttpPost]
         public string AddBrand(Brand brand)
         {
@@ -59,7 +73,17 @@ namespace WebAPI.Controllers
             }
         }
 
-        [HttpPost("{id}")]
+
+
+
+        //<summary> SWAGGER İÇERİSİNDE GÖZÜKEN METOTLARIN YANLARINDA YAZMIŞ OLDUĞUMUZ AÇIKLAMALARINI GÖSTERİYOR
+        //AŞAĞIDAKİ KISMI KULLANABİLMEK İÇİN WebAPI ÜZERİNE GELİP SAĞ TIKLIYORUZ => PROPERTIES => BUILD => OUTPUT => DOCUMENTATION FILE KISMINI CHECK YAPIYORUZ 
+        /// <summary>
+        /// Gönderilecek olan parametreler tam sayı türünde olmalıdır
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpDelete("{id}")]
         public string DeleteBrand(int id)
         {
             try
@@ -71,6 +95,23 @@ namespace WebAPI.Controllers
             }
             catch (Exception exception)
             {
+                return "Bir hata meydana geldi. Detay:" + exception.Message;
+            }
+        }
+
+        [HttpPut]
+        public string DeleteBrand(Brand brand)
+        {
+            try
+            {
+                _brandRepository.Update(brand);
+
+                return brand.Name + " isimli marka başarılı bir şekilde güncellendi.";
+
+            }
+            catch (Exception exception)
+            {
+
                 return "Bir hata meydana geldi. Detay:" + exception.Message;
             }
         }
